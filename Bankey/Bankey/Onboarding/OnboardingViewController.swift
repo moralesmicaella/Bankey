@@ -16,11 +16,7 @@ class OnboardingViewController: UIViewController {
     let closeButton = UIButton(type: .system)
     let pageViewController: UIPageViewController
     var pages = [UIViewController]()
-    var currentVC: UIViewController {
-        didSet {
-            
-        }
-    }
+    var currentVC: UIViewController
     
     weak var delegate: OnboardingViewControllerDelegate?
     
