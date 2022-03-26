@@ -28,6 +28,8 @@
 		24EA410D27EED46C009009FA /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA410C27EED46C009009FA /* NSNotificationName.swift */; };
 		24EA410F27EED633009009FA /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA410E27EED633009009FA /* UITextField+SecureToggle.swift */; };
 		24EA411227EEF750009009FA /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA411127EEF750009009FA /* ShakeyBellView.swift */; };
+		24EA411627EFCECA009009FA /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA411527EFCECA009009FA /* Date+Utils.swift */; };
+		24EA411827EFD04C009009FA /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA411727EFD04C009009FA /* AccountSummaryViewController+Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		24EA410C27EED46C009009FA /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		24EA410E27EED633009009FA /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
 		24EA411127EEF750009009FA /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
+		24EA411527EFCECA009009FA /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		24EA411727EFD04C009009FA /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,7 @@
 				24EA40C627ED957C009009FA /* UIViewController+Utils.swift */,
 				24EA40D927EDD028009009FA /* Decimal+Utils.swift */,
 				24EA410E27EED633009009FA /* UITextField+SecureToggle.swift */,
+				24EA411527EFCECA009009FA /* Date+Utils.swift */,
 				24EA40C427ED89BF009009FA /* LocalState.swift */,
 				24EA40D727EDCAA9009009FA /* CurrencyFormatter.swift */,
 				24EA410C27EED46C009009FA /* NSNotificationName.swift */,
@@ -164,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				24EA40CD27EDA636009009FA /* AccountSummaryViewController.swift */,
+				24EA411727EFD04C009009FA /* AccountSummaryViewController+Networking.swift */,
 				24EA40D327EDBA1D009009FA /* Header */,
 				24EA40D427EDBA35009009FA /* Cell */,
 			);
@@ -319,8 +325,10 @@
 				24EA40CB27ED975E009009FA /* MainViewController.swift in Sources */,
 				24EA40CE27EDA636009009FA /* AccountSummaryViewController.swift in Sources */,
 				24EA40DA27EDD028009009FA /* Decimal+Utils.swift in Sources */,
+				24EA411627EFCECA009009FA /* Date+Utils.swift in Sources */,
 				24EA40A427EC2EF3009009FA /* AppDelegate.swift in Sources */,
 				24EA40BE27ED1A61009009FA /* OnboardingViewController.swift in Sources */,
+				24EA411827EFD04C009009FA /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
