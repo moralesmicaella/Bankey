@@ -138,7 +138,7 @@ extension AccountSummaryViewController {
     }
 }
 
- MARK: ACTIONS
+// MARK: - ACTIONS
 extension AccountSummaryViewController {
     @objc func logoutTapped(sender: UIButton) {
         NotificationCenter.default.post(name: .logout, object: nil)
