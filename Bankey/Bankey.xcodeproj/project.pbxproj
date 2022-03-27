@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24A640B227F00DC100891C23 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A640B127F00DC100891C23 /* ProfileManager.swift */; };
+		24A640B427F0121500891C23 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A640B327F0121500891C23 /* AccountManager.swift */; };
+		24A640B627F012B600891C23 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A640B527F012B600891C23 /* NetworkError.swift */; };
 		24EA40A427EC2EF3009009FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA40A327EC2EF3009009FA /* AppDelegate.swift */; };
 		24EA40A827EC2EF3009009FA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA40A727EC2EF3009009FA /* LoginViewController.swift */; };
 		24EA40AD27EC2EFA009009FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EA40AC27EC2EFA009009FA /* Assets.xcassets */; };
@@ -29,7 +32,6 @@
 		24EA410F27EED633009009FA /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA410E27EED633009009FA /* UITextField+SecureToggle.swift */; };
 		24EA411227EEF750009009FA /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA411127EEF750009009FA /* ShakeyBellView.swift */; };
 		24EA411627EFCECA009009FA /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA411527EFCECA009009FA /* Date+Utils.swift */; };
-		24EA411827EFD04C009009FA /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA411727EFD04C009009FA /* AccountSummaryViewController+Networking.swift */; };
 		24EA411C27EFD920009009FA /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA411B27EFD920009009FA /* ProfileTests.swift */; };
 		24EA411E27EFDA27009009FA /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA411D27EFDA27009009FA /* AccountTests.swift */; };
 		24EA412027EFF058009009FA /* SkeletonLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA411F27EFF057009009FA /* SkeletonLoadable.swift */; };
@@ -47,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24A640B127F00DC100891C23 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		24A640B327F0121500891C23 /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		24A640B527F012B600891C23 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		24EA40A027EC2EF3009009FA /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EA40A327EC2EF3009009FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24EA40A727EC2EF3009009FA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -72,7 +77,6 @@
 		24EA410E27EED633009009FA /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
 		24EA411127EEF750009009FA /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
 		24EA411527EFCECA009009FA /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
-		24EA411727EFD04C009009FA /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 		24EA411B27EFD920009009FA /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
 		24EA411D27EFDA27009009FA /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
 		24EA411F27EFF057009009FA /* SkeletonLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLoadable.swift; sourceTree = "<group>"; };
@@ -97,6 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24A640B027F00DAB00891C23 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				24A640B127F00DC100891C23 /* ProfileManager.swift */,
+				24A640B327F0121500891C23 /* AccountManager.swift */,
+				24A640B527F012B600891C23 /* NetworkError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		24EA409727EC2EF2009009FA = {
 			isa = PBXGroup;
 			children = (
@@ -177,9 +191,9 @@
 			isa = PBXGroup;
 			children = (
 				24EA40CD27EDA636009009FA /* AccountSummaryViewController.swift */,
-				24EA411727EFD04C009009FA /* AccountSummaryViewController+Networking.swift */,
 				24EA40D327EDBA1D009009FA /* Header */,
 				24EA40D427EDBA35009009FA /* Cell */,
+				24A640B027F00DAB00891C23 /* Networking */,
 			);
 			path = AccountSummary;
 			sourceTree = "<group>";
@@ -339,8 +353,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				24EA40C727ED957D009009FA /* UIViewController+Utils.swift in Sources */,
+				24A640B427F0121500891C23 /* AccountManager.swift in Sources */,
+				24A640B627F012B600891C23 /* NetworkError.swift in Sources */,
 				24EA412227EFF112009009FA /* SkeletonCell.swift in Sources */,
 				24EA40C027ED245F009009FA /* OnboardingPageViewController.swift in Sources */,
+				24A640B227F00DC100891C23 /* ProfileManager.swift in Sources */,
 				24EA40C527ED89BF009009FA /* LocalState.swift in Sources */,
 				24EA40D027EDA8E5009009FA /* AccountSummaryHeaderView.swift in Sources */,
 				24EA410F27EED633009009FA /* UITextField+SecureToggle.swift in Sources */,
@@ -358,7 +375,6 @@
 				24EA40A427EC2EF3009009FA /* AppDelegate.swift in Sources */,
 				24EA40BE27ED1A61009009FA /* OnboardingViewController.swift in Sources */,
 				24EA412027EFF058009009FA /* SkeletonLoadable.swift in Sources */,
-				24EA411827EFD04C009009FA /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
